@@ -1,4 +1,4 @@
-# Decodificador de texto!!
+# Decodificador de texto ONE.
 <img src="/DECODIFICADOR.png">
 ## Ferramentas utilizadas:
 
