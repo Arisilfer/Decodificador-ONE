@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <title>Decodificador</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <img class="logo-alura" src="img/alura.png" alt="logo-da-alura">
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <div class="left">
+                <textarea class="text" id="textInsert" placeholder="Digite seu texto aqui..."></textarea>
+                <div class="left_two">
+                    <img src="IMG/exclamacao.png" alt="ponto-de-exclamacao">
+                    <span class="left_alert">Apenas letras minúsculas e sem acento.</span>
+                    <div class="left_btn">
+                        <button id="btnCrypt" class="btn_crypt">Criptografar</button>
+                        <button id="btnDecrypt" class="btn_decrypt">Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="right" class="right result">
+                <img id="menino" class="menino" src="IMG/menino.png" alt="menino-diamante">
+                <textarea id="noneMsg" class="none_msg result" placeholder="Nenhuma mensagem encontrada"></textarea>
+                <p id="infoMsg" class="info_msg">Digite um texto que você deseja criptografar ou descriptografar</p>
+                <button id="btnCopy" class="btn_copy hide">Copiar</button>
+            </div>
+        </div>
+    </main>
+    <hr>
+
+    <footer>
+        <div class="footer-content">
+            <p class="apresentacao">&copy; Desenvolvido por Ariane S Ferreira | 2024</p>
+            <div class="footer-logos">
+                <a href="https://github.com/Arisilfer" target="_blank">
+                    <img src="IMG/icons8-github-48.png" class="image" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/ariane-ferreira-consultora-comercial/" target="_blank">
+                    <img src="IMG/icons8-linkedin-48.png" class="image" alt="LinkedIn">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
