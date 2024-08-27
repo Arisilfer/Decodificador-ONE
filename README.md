@@ -1,5 +1,5 @@
 # Decodificador de texto!!
-<img src="/DECODIFICADO.png">
+<img src="/DECODIFICADOR.png">
 ## Ferramentas utilizadas:
 
 * HTML
